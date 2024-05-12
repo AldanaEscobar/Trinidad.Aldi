@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import HomePage from '../components/homePage'
-import VidaNomade from '../components/vidaNomade'
+import Tienda from '../components/Tienda'
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <div className="app-container">
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/vidanomade" element={<VidaNomade/>} />
+      <Route path="/vidanomade" element={<Tienda/>} />
     </Routes>
     </div>
   </Router>
